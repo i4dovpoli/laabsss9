@@ -1,0 +1,70 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1516321310766-47f1b7a0fd5f?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+    padding: 100px 0;
+    color: white;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+    transform: rotate(10deg);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+.btn-secondary {
+    background: linear-gradient(45deg, #6c757d, #adb5bd);
+    border: none;
+    transition: transform 0.2s;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+}
+
+.form-control {
+    border-radius: 10px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+    border-color: #007bff;
+}
+
+.list-group-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #00d4ff;
+}
